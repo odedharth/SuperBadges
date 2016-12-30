@@ -3,12 +3,33 @@
 [![Version](https://img.shields.io/cocoapods/v/SuperBadges.svg?style=flat)](http://cocoapods.org/pods/SuperBadges)
 [![License](https://img.shields.io/cocoapods/l/SuperBadges.svg?style=flat)](http://cocoapods.org/pods/SuperBadges)
 [![Platform](https://img.shields.io/cocoapods/p/SuperBadges.svg?style=flat)](http://cocoapods.org/pods/SuperBadges)
+![language](https://img.shields.io/badge/Language-%20Swift%20-orange.svg)
 
-## Example
+<p align="center">
+  <img src="https://s23.postimg.org/zdakj47kr/Super_Bage.png" width="473.6">
+</p>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Add emojis and colored dots as badges for your Tab Bar buttons ✨
 
-## Requirements
+## Usage
+
+Add an emoji badge:
+
+```swift
+  YourTabBarController.addDotAtTabBarItemIndex(index: 0, radius: 10, text : "👏🏻")
+```
+
+Add a colored dot badge:
+
+```swift
+    YourTabBarController.addDotAtTabBarItemIndex(index: 0, radius: 7, color : UIColor.blue)
+```
+
+Remove badge:
+
+```swift
+  YourTabBarController.removeDotAtTabBarItemIndex(index: 0)
+```
 
 ## Installation
 
@@ -21,7 +42,10 @@ pod "SuperBadges"
 
 ## Author
 
-odedharth, odedharth@gmail.com
+[1]: http://www.twitter.com/odedharth
+[1.1]: http://i.imgur.com/wWzX9uB.png (twitter icon with padding)
+
+Oded Harth [![alt text][1.1]][1]
 
 ## License
 
