@@ -1,6 +1,4 @@
-import UIKit
-
-extension UITabBarController {
+public extension UITabBarController {
     func addDotAtTabBarItemIndex(index: Int, radius : CGFloat = 5, color : UIColor = UIColor.red, text : String? = nil) {
         let tag = index + 999
         for subview in self.tabBar.subviews {
