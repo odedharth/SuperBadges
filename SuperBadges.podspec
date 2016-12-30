@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuperBadges'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Emoji Tab Bar button badges ✨'
 
 # This description is used to generate tags and improve search results.
