@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuperBadges'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Emoji Tab Bar button badges ✨'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/odedharth/SuperBadges.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/odedharth'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'SuperBadges/Classes/**/*'
   
