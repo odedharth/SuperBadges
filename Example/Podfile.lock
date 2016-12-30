@@ -1,0 +1,16 @@
+PODS:
+  - SuperBadges (0.1.0)
+
+DEPENDENCIES:
+  - SuperBadges (from `../`)
+
+EXTERNAL SOURCES:
+  SuperBadges:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperBadges: 4cb4af189362be205e04dcbc09e3abc4c045f2f1
+
+PODFILE CHECKSUM: 9e7bfdc9387893d36665ca3d6728d448b6fffe46
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module SuperBadges {
+  umbrella header "SuperBadges-umbrella.h"
+
+  export *
+  module * { export * }
+}

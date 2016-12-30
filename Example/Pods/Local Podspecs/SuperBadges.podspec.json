@@ -1,0 +1,22 @@
+{
+  "name": "SuperBadges",
+  "version": "0.1.0",
+  "summary": "A short description of SuperBadges.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SuperBadges",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "odedhartg": "odedharth@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SuperBadges.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SuperBadges/Classes/**/*"
+}

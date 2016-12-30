@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1555194114AA15A1DE0D7F19C57806A6 /* Pods-SuperBadges_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3378C287BD5F70DC4E746B4CE4CF3FD6 /* Pods-SuperBadges_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5B0F661F17732A58539ADE90F8628C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		294AF7FE6CA2049A172436557C05FA77 /* SuperBadges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0B98F474BAB6323E0A6FD5F613D03 /* SuperBadges-dummy.m */; };
+		33354133DB6A89BFF6F802A35652891C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3E3E96CCAFBE1976F1B02A0054D07306 /* Pods-SuperBadges_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2504651B1A60A31A7898D865B80E5B /* Pods-SuperBadges_Tests-dummy.m */; };
+		B49C1009C41886B3AC40752C4E0F07AF /* SuperBadges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FC886F67563D2B191C3F9DC8120DF9 /* SuperBadges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE399D2518FFCB6EF864D49FBBA546E8 /* SuperBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83BF769F9A2973414F5057A5ED99D6D /* SuperBadges.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B66997E63E17ABAE721EA2A7B06B265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD82D540F548B215A4FC9FDA8924AB2E;
+			remoteInfo = SuperBadges;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01597180465DEF23B32AAF769785AB2A /* Pods-SuperBadges_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SuperBadges_Tests.modulemap"; sourceTree = "<group>"; };
+		0E334AABC3B71A9292C18248638EF87D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1055867A3D9E1009F1A05A56B70CDE80 /* Pods-SuperBadges_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperBadges_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26F357F1B00B5C2112DC6289277E6D66 /* Pods-SuperBadges_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperBadges_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3378C287BD5F70DC4E746B4CE4CF3FD6 /* Pods-SuperBadges_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperBadges_Tests-umbrella.h"; sourceTree = "<group>"; };
+		414847192DDD4CA034110DF5560923BF /* Pods-SuperBadges_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperBadges_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D0B98F474BAB6323E0A6FD5F613D03 /* SuperBadges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperBadges-dummy.m"; sourceTree = "<group>"; };
+		59FC37031D6376ECA4E98DA23C502CE8 /* SuperBadges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperBadges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2504651B1A60A31A7898D865B80E5B /* Pods-SuperBadges_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperBadges_Tests-dummy.m"; sourceTree = "<group>"; };
+		7350A1A31A94E65480D3884429B5CD10 /* Pods-SuperBadges_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperBadges_Tests-resources.sh"; sourceTree = "<group>"; };
+		8BB0FEF4B995B504B9C433EA66FCE760 /* SuperBadges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperBadges-prefix.pch"; sourceTree = "<group>"; };
+		92F3DFD742068C8ADCBA62F0107AC804 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABBDDC274B7563F782288A42857D7DE1 /* Pods_SuperBadges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperBadges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83BF769F9A2973414F5057A5ED99D6D /* SuperBadges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SuperBadges.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3B24FD2AF02E88C4DF41A71026D89D8 /* Pods-SuperBadges_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperBadges_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5328130F9E82E8902569B6FF06FDC46 /* SuperBadges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SuperBadges.modulemap; sourceTree = "<group>"; };
+		D8CDA084170BB62562ACB7B320620FB8 /* SuperBadges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperBadges.xcconfig; sourceTree = "<group>"; };
+		E5FC886F67563D2B191C3F9DC8120DF9 /* SuperBadges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperBadges-umbrella.h"; sourceTree = "<group>"; };
+		F06041A0D2D3A3C557030EA2B3A4449A /* Pods-SuperBadges_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperBadges_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CEB75DE8EC28386B18A9F718A320AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33354133DB6A89BFF6F802A35652891C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F562D2075D2F73C897281F6BA28577EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5B0F661F17732A58539ADE90F8628C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087B1DA56E45FA6021F49CE7514686B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0452D4F53040CE606CFAD9328AD35EF /* SuperBadges */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		27EAD8B1E102A2AF0C4495992B122E50 /* SuperBadges */ = {
+			isa = PBXGroup;
+			children = (
+				B5BB4139B89BEB4FE0AF3CE237CFBF4C /* Classes */,
+			);
+			path = SuperBadges;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				087B1DA56E45FA6021F49CE7514686B2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				969C3CBDC088FF73DDFB75D05607E75B /* Products */,
+				C9AC4BD6ED0DC9326DD4A9CC7DAC486D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BE66549DC68651904B51723C3490D8C /* Pods-SuperBadges_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92F3DFD742068C8ADCBA62F0107AC804 /* Info.plist */,
+				01597180465DEF23B32AAF769785AB2A /* Pods-SuperBadges_Tests.modulemap */,
+				D3B24FD2AF02E88C4DF41A71026D89D8 /* Pods-SuperBadges_Tests-acknowledgements.markdown */,
+				1055867A3D9E1009F1A05A56B70CDE80 /* Pods-SuperBadges_Tests-acknowledgements.plist */,
+				6E2504651B1A60A31A7898D865B80E5B /* Pods-SuperBadges_Tests-dummy.m */,
+				F06041A0D2D3A3C557030EA2B3A4449A /* Pods-SuperBadges_Tests-frameworks.sh */,
+				7350A1A31A94E65480D3884429B5CD10 /* Pods-SuperBadges_Tests-resources.sh */,
+				3378C287BD5F70DC4E746B4CE4CF3FD6 /* Pods-SuperBadges_Tests-umbrella.h */,
+				414847192DDD4CA034110DF5560923BF /* Pods-SuperBadges_Tests.debug.xcconfig */,
+				26F357F1B00B5C2112DC6289277E6D66 /* Pods-SuperBadges_Tests.release.xcconfig */,
+			);
+			name = "Pods-SuperBadges_Tests";
+			path = "Target Support Files/Pods-SuperBadges_Tests";
+			sourceTree = "<group>";
+		};
+		969C3CBDC088FF73DDFB75D05607E75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBDDC274B7563F782288A42857D7DE1 /* Pods_SuperBadges_Tests.framework */,
+				59FC37031D6376ECA4E98DA23C502CE8 /* SuperBadges.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0452D4F53040CE606CFAD9328AD35EF /* SuperBadges */ = {
+			isa = PBXGroup;
+			children = (
+				27EAD8B1E102A2AF0C4495992B122E50 /* SuperBadges */,
+				DB7CAADDB1D85909E71625287D69E9BA /* Support Files */,
+			);
+			name = SuperBadges;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B5BB4139B89BEB4FE0AF3CE237CFBF4C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C83BF769F9A2973414F5057A5ED99D6D /* SuperBadges.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AC4BD6ED0DC9326DD4A9CC7DAC486D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE66549DC68651904B51723C3490D8C /* Pods-SuperBadges_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DB7CAADDB1D85909E71625287D69E9BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E334AABC3B71A9292C18248638EF87D /* Info.plist */,
+				D5328130F9E82E8902569B6FF06FDC46 /* SuperBadges.modulemap */,
+				D8CDA084170BB62562ACB7B320620FB8 /* SuperBadges.xcconfig */,
+				56D0B98F474BAB6323E0A6FD5F613D03 /* SuperBadges-dummy.m */,
+				8BB0FEF4B995B504B9C433EA66FCE760 /* SuperBadges-prefix.pch */,
+				E5FC886F67563D2B191C3F9DC8120DF9 /* SuperBadges-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SuperBadges";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AC85B18DAB0DC575CEE02152C7A79F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49C1009C41886B3AC40752C4E0F07AF /* SuperBadges-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D3D9169282155C93A438FB61779C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1555194114AA15A1DE0D7F19C57806A6 /* Pods-SuperBadges_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99E5D933C8314C24EF8BEE3FE95FD1A0 /* Pods-SuperBadges_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3209BEF977406690B7977D70CAF2B8 /* Build configuration list for PBXNativeTarget "Pods-SuperBadges_Tests" */;
+			buildPhases = (
+				DA69C745BFE685917A1F07CFE23715E2 /* Sources */,
+				4CEB75DE8EC28386B18A9F718A320AE5 /* Frameworks */,
+				A2D3D9169282155C93A438FB61779C24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70D9D5AD7F49569BEF680F96817B00D /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperBadges_Tests";
+			productName = "Pods-SuperBadges_Tests";
+			productReference = ABBDDC274B7563F782288A42857D7DE1 /* Pods_SuperBadges_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD82D540F548B215A4FC9FDA8924AB2E /* SuperBadges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8190CF9CC2E01A4BD7F647F5E9578E /* Build configuration list for PBXNativeTarget "SuperBadges" */;
+			buildPhases = (
+				142F88AEF7A6966A1FB1859220B20866 /* Sources */,
+				F562D2075D2F73C897281F6BA28577EB /* Frameworks */,
+				7AC85B18DAB0DC575CEE02152C7A79F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperBadges;
+			productName = SuperBadges;
+			productReference = 59FC37031D6376ECA4E98DA23C502CE8 /* SuperBadges.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 969C3CBDC088FF73DDFB75D05607E75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E5D933C8314C24EF8BEE3FE95FD1A0 /* Pods-SuperBadges_Tests */,
+				AD82D540F548B215A4FC9FDA8924AB2E /* SuperBadges */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142F88AEF7A6966A1FB1859220B20866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE399D2518FFCB6EF864D49FBBA546E8 /* SuperBadges.swift in Sources */,
+				294AF7FE6CA2049A172436557C05FA77 /* SuperBadges-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA69C745BFE685917A1F07CFE23715E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3E96CCAFBE1976F1B02A0054D07306 /* Pods-SuperBadges_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70D9D5AD7F49569BEF680F96817B00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperBadges;
+			target = AD82D540F548B215A4FC9FDA8924AB2E /* SuperBadges */;
+			targetProxy = 6B66997E63E17ABAE721EA2A7B06B265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		102E1A002D4CBC2C443D99A35A8172E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CDA084170BB62562ACB7B320620FB8 /* SuperBadges.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperBadges/SuperBadges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperBadges/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperBadges/SuperBadges.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SuperBadges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BCA4B948256D325AD2FD80833B398F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CDA084170BB62562ACB7B320620FB8 /* SuperBadges.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperBadges/SuperBadges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperBadges/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperBadges/SuperBadges.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SuperBadges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CE16FC4604BFFAF5B3CA81CB52DB631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F357F1B00B5C2112DC6289277E6D66 /* Pods-SuperBadges_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperBadges_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperBadges_Tests/Pods-SuperBadges_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SuperBadges_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5506849BDD5A761A9463E48090D7306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414847192DDD4CA034110DF5560923BF /* Pods-SuperBadges_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperBadges_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperBadges_Tests/Pods-SuperBadges_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SuperBadges_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8190CF9CC2E01A4BD7F647F5E9578E /* Build configuration list for PBXNativeTarget "SuperBadges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCA4B948256D325AD2FD80833B398F6 /* Debug */,
+				102E1A002D4CBC2C443D99A35A8172E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3209BEF977406690B7977D70CAF2B8 /* Build configuration list for PBXNativeTarget "Pods-SuperBadges_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5506849BDD5A761A9463E48090D7306 /* Debug */,
+				6CE16FC4604BFFAF5B3CA81CB52DB631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
