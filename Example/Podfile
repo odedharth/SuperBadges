@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SuperBadges_Tests' do
+  pod 'SuperBadges', :path => '../'
+  
+  
+end
