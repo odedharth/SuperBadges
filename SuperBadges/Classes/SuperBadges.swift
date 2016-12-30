@@ -1,5 +1,3 @@
-import UIKit
-
 extension UITabBarController {
     func addDotAtTabBarItemIndex(index: Int, radius : CGFloat = 5, color : UIColor = UIColor.red, text : String? = nil) {
         let tag = index + 999
