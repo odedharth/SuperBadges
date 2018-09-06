@@ -5,10 +5,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/SuperBadges.svg?style=flat)](http://cocoapods.org/pods/SuperBadges)
 ![language](https://img.shields.io/badge/Language-%20Swift%20-orange.svg)
 
-<p align="center">
-  <img src="https://s23.postimg.org/zdakj47kr/Super_Bage.png" width="473.6">
-</p>
-
 Add emojis and colored dots as badges for your Tab Bar buttons ✨
 
 ## Usage
